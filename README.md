@@ -1,4 +1,4 @@
-# p2vuee
+# CoinsVue
 
 ## Project setup
 ```
