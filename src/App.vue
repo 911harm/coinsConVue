@@ -1,17 +1,20 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div class="alert alert-success" >
+      <h1>Consumiendo API de Coins</h1>
+    </div>
+    <coinList/>
+
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import CoinList from './components/coinList.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    CoinList
   }
 }
 </script>
@@ -24,5 +27,8 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+body{
+  background: #eee;
 }
 </style>
